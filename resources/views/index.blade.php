@@ -13,7 +13,7 @@
 
 @push('scripts')
     <!-- Google Maps API Js -->
-    <script src="https://maps.google.com/maps/api/js?v=3&sensor=false"></script>/script>
+    <script src="https://maps.google.com/maps/api/js?v=3&sensor=false"></script>
 
     <!-- Custom Js -->
     <script src="js/admin.js"></script>
@@ -117,7 +117,7 @@
             <div class="card">
                 <div class="header">
                     <h2>
-                        BASIC EXAMPLE
+                        WORLD MAP
                     </h2>
                 </div>
                 <div class="body">
