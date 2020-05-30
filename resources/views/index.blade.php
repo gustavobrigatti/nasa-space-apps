@@ -5,13 +5,16 @@
         /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
         #map {
-            height: 400px;
             width: 100%;
+            height: 400px;
         }
     </style>
 @endpush
 
 @push('scripts')
+    <!-- Google Maps API Js -->
+    <script src="https://maps.google.com/maps/api/js?v=3&sensor=false"></script>/script>
+
     <!-- Custom Js -->
     <script src="js/admin.js"></script>
     <script>
@@ -103,10 +106,24 @@
             });
         }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgABwGVHWxE2n5RKYgBAd7HcW87qBOyIo&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEOrL55hCj17PsojGDsuPF8ZJ5v5T4Z_A&callback=initMap"
             async defer></script>
 @endpush
 
 @section('content')
-    <div id="map"></div>
+    <!-- Basic Example -->
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>
+                        BASIC EXAMPLE
+                    </h2>
+                </div>
+                <div class="body">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
