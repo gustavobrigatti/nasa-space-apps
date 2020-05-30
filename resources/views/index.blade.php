@@ -8,12 +8,6 @@
             height: 400px;
             width: 100%;
         }
-        /* Optional: Makes the sample page fill the window. */
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
     </style>
 @endpush
 
@@ -114,9 +108,5 @@
 @endpush
 
 @section('content')
-    <section class="content" style=" height: 100%;">
-        <div class="container-fluid" style="height: 100%">
-            <div id="map" style="height: 100%"></div>
-        </div>
-    </section>
+    <div id="map"></div>
 @endsection
