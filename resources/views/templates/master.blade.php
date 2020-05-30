@@ -26,7 +26,7 @@
 
 @stack('head')
 
-<!-- Custom Css -->
+    <!-- Custom Css -->
     <link href="css/style.css" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
@@ -71,8 +71,8 @@
         <div class="menu">
             <ul class="list">
                 <li class="header">NAVEGAÇÃO PRINCIPAL</li>
-                <li class="">
-                    <a href="">
+                <li class="{{ \Request::route()->getName() == 'index' ? 'active':'' }}">
+                    <a href="{{ route('index') }}">
                         <i class="material-icons">home</i>
                         <span>Início</span>
                     </a>
@@ -83,7 +83,7 @@
         <!-- Footer -->
         <div class="legal">
             <div class="copyright">
-                &copy; 2020 <a href="" target="_blank">#equipe-090</a>
+                &copy; 2020 <a>#equipe-090</a>
             </div>
         </div>
         <!-- #Footer -->
@@ -112,9 +112,6 @@
 <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
 @stack('scripts')
-
-<!-- Custom Js -->
-<script src="js/admin.js"></script>
 
 <!-- Demo Js -->
 <script src="js/demo.js"></script>
