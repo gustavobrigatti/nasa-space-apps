@@ -91,13 +91,7 @@
     <!-- #END# Left Sidebar -->
 </section>
 
-<section class="content">
-    <div class="container-fluid">
-
-        @yield('content')
-
-    </div>
-</section>
+@yield('content')
 
 <!-- Jquery Core Js -->
 <script src="plugins/jquery/jquery.min.js"></script>

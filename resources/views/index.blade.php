@@ -114,5 +114,9 @@
 @endpush
 
 @section('content')
-    <div id="map"></div>
+    <section class="content" style=" height: 100%;">
+        <div class="container-fluid" style="height: 100%">
+            <div id="map" style="height: 100%"></div>
+        </div>
+    </section>
 @endsection
