@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('templates.master');
-});
+Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index']);

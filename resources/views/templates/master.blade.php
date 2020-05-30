@@ -33,7 +33,7 @@
     <link href="css/themes/all-themes.css" rel="stylesheet"/>
 </head>
 
-<body class="theme-blue">
+<body class="theme-indigo">
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
     <div class="loader">
@@ -83,8 +83,7 @@
         <!-- Footer -->
         <div class="legal">
             <div class="copyright">
-                &copy; 2020 <a href="https://github.com/gustavobrigatti" target="_blank">FalaAÍ - Gustavo Rosolen
-                    Brigatti</a>.
+                &copy; 2020 <a href="" target="_blank">#equipe-090</a>
             </div>
         </div>
         <!-- #Footer -->
@@ -116,7 +115,6 @@
 
 <!-- Custom Js -->
 <script src="js/admin.js"></script>
-<script src="js/pages/index.js"></script>
 
 <!-- Demo Js -->
 <script src="js/demo.js"></script>
